@@ -1,4 +1,4 @@
-# Typographix blog v1 🚀
+# Typographix Gallery v1 🚀
 
 This is gallery page, developed with HTML and CSS.
 
