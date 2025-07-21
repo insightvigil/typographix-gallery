@@ -61,7 +61,7 @@ const checkScroll = () => {
     }
 
     //Calculate new font size based on scroll position
-    let newSize = 3 - (scrollPosition * 0.03); //Decrease by 0.03 for every pixel scrolled
+    let newSize = 4.8 - (scrollPosition * 0.03); //Decrease by 0.03 for every pixel scrolled
 
     // Clamping the font size between 1.5rem and 3rem
     newSize = Math.max(1.4, newSize);
