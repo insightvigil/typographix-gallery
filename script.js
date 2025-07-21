@@ -49,7 +49,6 @@ for(const item of items) {
 const checkScroll = () => {
     const navbar = document.getElementById('navbar');
     const logo = document.getElementById('logo');
-
     let scrollPosition = window.scrollY;
     console.log(scrollPosition);
 
@@ -65,10 +64,10 @@ const checkScroll = () => {
     let newSize = 3 - (scrollPosition * 0.03); //Decrease by 0.03 for every pixel scrolled
 
     // Clamping the font size between 1.5rem and 3rem
-    newSize = Math.max(1.5, newSize);
-    newSize = Math.min(3, newSize)
+    newSize = Math.max(1.4, newSize);
+    newSize = Math.min(4.8, newSize);
 
-    logo.style.fontSize = newSize + 'rem';
+    logo.style.fontSize = newSize + "rem";
 
     
 }
